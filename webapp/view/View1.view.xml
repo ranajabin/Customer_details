@@ -1,0 +1,16 @@
+<mvc:View controllerName="fragment1.fragmentproject1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox alignContent="Center" alignItems="Center">
+                <f:SimpleForm alignContent="Center" alignItems="Center">
+                    <f:content>
+                        <l:VerticalLayout width="100%">
+                            <Label text="Customer Id" labelFor="customerId" />
+                            <Input id="custId" showSuggestion="true" showValueHelp="true" textFormatMode="KeyValue" valueHelpRequest="onLoadDialog" />
+                        </l:VerticalLayout>
+                    </f:content>
+                </f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

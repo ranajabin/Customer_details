@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+    xmlns:f = "sap.ui.layout.form">
+	<f:SimpleForm title = "Employee Id"><f:content>
+   <!-- <Label text = "Employee Id" />  -->
+      <Input value = "01" height = "100px" width = "100px"></Input>
+      <Input value = "02" height = "100px" width = "100px"></Input>
+      <Input value = "03" height = "100px" width = "100px"></Input>
+      <Input value = "04" height = "100px" width = "100px"></Input>
+      <Input value = "05" height = "100px" width = "100px"></Input>
+
+    </f:content></f:SimpleForm>
+
+</core:FragmentDefinition>

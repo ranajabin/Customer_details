@@ -1,0 +1,14 @@
+{
+    "custdetail": [{
+        "custid": "1001",
+        "companyname": "Nestle"
+    },
+    {
+        "custid": "2002",
+        "companyname": "Britannia"
+    },
+    {
+        "custid": "3003",
+        "companyname": "Patanjali"
+    }]
+}
